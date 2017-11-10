@@ -1,0 +1,139 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Microsoft YaHei';
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+.lt-aside {
+    width: 180px;
+    height: 100%;
+    position: absolute;
+    background-color: #222d32;
+}
+
+.brand {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #367fa9;
+}
+
+.brand a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.user {
+    width: 100%;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user span {
+    font-size: 12px;
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+}
+
+.menu li>a {
+    height: 100%;
+    /* display: block; */
+    line-height: 40px;
+    color: #aaa;
+    padding-left: -30px;
+}
+
+.menu .child {
+    width: 100%;
+    display: none;
+}
+
+.menu .child a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* 右侧 */
+
+.lt-section {
+    padding-left: 180px;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.lt-section.menu {
+    padding-left: 0;
+}
+
+.lt-nav {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: #3c8dbc;
+    margin-bottom: 20px;
+}
+
+.lt-nav a {
+    color: #fff;
+    /* padding: 0 20px; */
+}
+
+.lt-nav a:first-child {
+    float: left;
+    margin-left: 15px;
+}
+
+.lt-nav a:last-child {
+    float: right;
+    margin-right: 15px;
+}
+
+.lt_content {
+    width: 100%;
+}
+
+.lt_content .picTable {
+    float: left;
+    width: 45%;
+    height: 400px;
+}
+
+.lt_content .picTable:last-child {
+    margin-left: 10%;
+}
+
+
+/* 处理点击退出登录的操作 */
+.alert-danger {
+    background-color: #fff;
+    border-color: #fff;
+}
